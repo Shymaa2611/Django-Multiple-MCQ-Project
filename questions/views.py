@@ -1,4 +1,4 @@
-""" from django.shortcuts import render,redirect
+"""from django.shortcuts import render,redirect
 from .forms import LoginForm,authenticationForm,qusetionForm
 from .models import User,Chapter
 import PyPDF2

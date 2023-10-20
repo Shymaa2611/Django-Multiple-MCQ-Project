@@ -15,7 +15,7 @@ class User(AbstractBaseUser, PermissionsMixin):
     def __str__(self):
         return self.email
     
-""" class Chapter(models.Model):
+class Chapter(models.Model):
     chapter=models.FileField(upload_to='chapters/',blank=True,null=True)
     final_degree=models.IntegerField(blank=True,null=True)
 
@@ -32,5 +32,5 @@ def create_user_profile(sender, instance, created, **kwargs):
     if created:
         Profile.objects.create(user=instance)
 
- """
+
     

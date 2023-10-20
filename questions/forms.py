@@ -1,4 +1,4 @@
-""" from django import forms
+from django import forms
 from .models import User,Profile,Chapter
 
 
@@ -22,4 +22,4 @@ class qusetionForm(forms.ModelForm):
     class Meta:
         model=Chapter
         fields=('chapter',)
- """
+ 

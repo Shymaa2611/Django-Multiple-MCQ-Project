@@ -19,5 +19,4 @@ flashtext
 jellyfish
 similarity
 strsim
-git+https://github.com/boudinfl/pke.git
 gdown

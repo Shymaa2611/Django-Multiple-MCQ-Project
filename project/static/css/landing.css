@@ -262,7 +262,6 @@ h1 {
   .person {
     width: 100%;
     transform: none;
-    margin-left: -50px;
   }
   .menu {
     display: flex;

@@ -3,12 +3,12 @@ import shutil
 from pathlib import Path
 url = 'https://drive.google.com/uc?id=13CxLIiq-XvkfZ-as7u6Ho_8z8FBtyk_V'
 import os
-#output_path = os.path.join(os.getcwd(), 's2v_reddit_2015_md.tar.gz')
-#gdown.download(url, output_path, quiet=False)
-#shutil.unpack_archive(output_path, '/content/')
+output_path = os.path.join(os.getcwd(), 's2v_reddit_2015_md.tar.gz')
+gdown.download(url, output_path, quiet=False)
+shutil.unpack_archive(output_path, '/content/')
 
 from transformers import AutoModelWithLMHead, AutoTokenizer
-#import all the neccessary libraries
+import all the neccessary libraries
 import warnings
 warnings.filterwarnings("ignore")
 import torch
